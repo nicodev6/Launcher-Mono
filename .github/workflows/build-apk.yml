@@ -17,7 +17,7 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Extract project ZIP
-        run: unzip -o monolith-launcher-source.zip -d project
+        run: unzip -o monolith-launcher-source-fixed.zip -d project
 
       - uses: actions/setup-java@v4
         with:
